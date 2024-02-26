@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App > * {
+  margin: 5px;
+  border: 3px dotted lightgray;
+}
+
+.App > h2 {
+  border: none;
+}

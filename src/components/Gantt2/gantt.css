@@ -1,0 +1,112 @@
+.grid-container {
+  max-width: 6400px;
+  min-width: 650px;
+  height: 100vh;
+  /* height: max-content; */
+  width: max-content;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.gantt-grid {
+  display: grid;
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: small;
+  background-size: 19px 19px;
+  background-image: radial-gradient(circle, #8c8c8c 1px, rgba(0, 0, 0, 0) 1px);
+}
+
+.grid-item {
+  border: 1px solid rgb(243, 243, 243);
+  text-align: center;
+  background-color: white;
+}
+
+/* .chart-row {
+  display: grid;
+  background-color: #dcdcdc;
+}
+.chart-row:nth-child(odd) {
+  background-color: #c0c0c0;
+}
+.chart-period {
+  color: #fff;
+  background-color: #708090 !important;
+  border-bottom: 1px solid #000;
+}
+.chart-period > span {
+  text-align: center;
+  font-size: 13px;
+  align-self: center;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.chart-lines {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+.chart-lines > span {
+  display: block;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+} */
+
+.day {
+  min-width: 15px;
+}
+
+.tasks-label {
+  align-self: end;
+  text-align: left;
+  padding-left: 10px;
+  background-color: white;
+}
+
+.tasks {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.sticky-left {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.sticky-top1 {
+  top: 16px;
+}
+.sticky-top2 {
+  top: 32px;
+}
+
+.bars {
+  margin: 3px 0;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 7px;
+}
+/* 
+.grid-lines {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+.grid-lines > span {
+  display: block;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  min-width: 15px;
+} */
